@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+flask = "*"
+wit = "*"
+requests = "*"
+cleverbotfree = "*"
+
+[requires]
+python_version = "3.7"
+
+[dev-packages]
+pylint = "*"
